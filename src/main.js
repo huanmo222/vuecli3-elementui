@@ -5,6 +5,9 @@ import store from './store'
 import ElementUI from 'element-ui'
 import './styles/element-variables.scss'
 
+import '@/icons' // icon
+
+
 Vue.use(ElementUI, { size: 'small' })
 Vue.config.productionTip = false
 
