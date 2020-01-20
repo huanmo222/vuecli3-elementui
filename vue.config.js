@@ -4,7 +4,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
-const port = process.env.port || process.env.npm_config_port || 8098 // dev port
+const port = process.env.port || process.env.npm_config_port || 8089 // dev port
 module.exports = {
   // 默认配置
   publicPath: process.env.NODE_ENV === 'production'
